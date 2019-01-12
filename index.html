@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Floor -->
+      <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#595959"></a-plane>
+      <a-plane position="-15 1 0" rotation="0 90 0" width="40" height="40" color="#808080"></a-plane>
+      <a-plane position="15 1 -4" rotation="0 -90 0" width="40" height="40" color="#808080"></a-plane>
+      <!-- Seiling -->
+      <a-plane position="0 10 -4" rotation="90 0 0" width="50" height="50" color="#595959"></a-plane>
+      <a-plane position="0 0 -15.1" rotation="0 0 -90" width="30" height="30" color="#808080"></a-plane>
+      <a-plane position="0 0 15.1" rotation="180 0 90" width="40" height="45" color="#808080"></a-plane>
+
+      <!-- Pict 1 -->
+      <a-image src="img\IMAG6696.jpg" position="6 5 -15" scale="5 5 5"></a-image>
+        <a-cylinder  theta-start="50" theta-length="280" side="double"
+        open-ended="true"  position="5 1 -10"
+        color="#c7c7c7"
+        height="0.1">
+          <a-cylinder id="1" opacity="0.01">
+          </a-cylinder>
+          <a-animation attribute="rotation"
+            dur="10000"
+            fill="forwards"
+            to="0 360 0"
+            repeat="indefinite">
+          </a-animation>
+        </a-cylinder>
+        <!-- Pict 2 -->
+        <a-image src="img\IMAG6701.jpg" position="-6 5 -15" scale="5 5 5"></a-image>
+          <a-cylinder  theta-start="50" theta-length="280"
+            side="double" open-ended="true"  position="-5 1 -10" cursor-listener
+            color="#c7c7c7"
+            height="0.1">
+            <a-cylinder id="2" opacity="0.01">
+            </a-cylinder>
+            <a-animation attribute="rotation"
+              dur="10000"
+              fill="forwards"
+              to="0 360 0"
+              repeat="indefinite">
+            </a-animation>
+          </a-cylinder>
+          <!-- Pict 3 -->
+<a-image src="img\IMAG6702.jpg" position="-14.9 5 6" rotation="0 90 0" scale="5 5 5"></a-image>
+    <a-cylinder  theta-start="50" theta-length="280"
+     side="double" open-ended="true"  position="-10 1 6" cursor-listener
+      color="#c7c7c7"
+      height="0.1"
+    >
+    <a-cylinder id="3" opacity="0.01"></a-cylinder>
+    <a-animation attribute="rotation"
+      dur="10000"
+      fill="forwards"
+      to="0 360 0"
+      repeat="indefinite"></a-animation>
+    </a-cylinder>
+
+<!-- Pict 4 -->
+<a-image src="img\IMAG6703.jpg" position="-14.9 5 -6" rotation="0 90 0" scale="5 5 5"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="-10 1 -6"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="4" opacity="0.01"></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+
+
+<!-- 5 -->
+<a-image src="img\IMAG6697.jpg" position="5 5 14.9" scale="4 4 4"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="5 1 10"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="5" opacity="0.01"></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+
+<!-- 6 -->
+<a-image src="img\IMAG6698.jpg" position="-5 5 14.9" scale="4 4 4"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="-5 1 10"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="6" opacity="0.01"></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+
+<!-- 7 -->
+<a-image src="img\IMAG6699.jpg" position="0 5 14.9" scale="5 5 5"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="0 1 9"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="7" opacity="0.01" ></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+
+
+<!-- 8 -->
+<a-image src="img\IMAG6700.jpg" position="14.9 5 0" rotation="0 90 0" scale="5 5 5"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="9 1 0"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="8" opacity="0.01"></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+<!-- 9 -->
+<a-image src="img\IMAG6705.jpg" position="14.9 5 7" rotation="0 270 0" scale="6 4 5"></a-image>
+<a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="10 1 7"
+  color="#c7c7c7"
+  height="0.1"
+>
+<a-cylinder id="9" opacity="0.01"></a-cylinder>
+<a-animation attribute="rotation"
+  dur="10000"
+  fill="forwards"
+  to="0 360 0"
+  repeat="indefinite"></a-animation>
+</a-cylinder>
+<!-- 10 -->
+<a-image src="img\IMAG6704.jpg" position="14.9 5 -7" rotation="0 270 0" scale="5 6 5"></a-image>
+      <a-cylinder  theta-start="50" theta-length="280"
+ side="double" open-ended="true"  position="10 1 -7"
+  color="#c7c7c7"
+  height="0.1"
+    >
+      <a-cylinder id="10" opacity="0.01"></a-cylinder>
+        <a-animation attribute="rotation" dur="10000"  fill="forwards" to="0 360 0" repeat="indefinite">
+        </a-animation>
+      </a-cylinder>
+      <!--  -->
+      <a-sky color="#ECECEC"></a-sky>
+      <a-camera  position="0 3 0">
+        <a-cursor>
+        </a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
+<script>
+  var camera = document.querySelector('a-camera');
+  var cylinder = document.querySelectorAll('a-cylinder');
+
+  for(var i = 0; i < cylinder.length; i++){
+    if(cylinder[i].id){
+      document.getElementById(cylinder[i].id).addEventListener('mouseenter', function(){
+        let position = document.getElementById(this.id).parentElement.getAttribute('position');
+        camera.setAttribute('position', position.x + ' 5 ' + position.z)
+      })
+   }
+  }
+
+
+
+</script>
